@@ -1,0 +1,8 @@
+config\conexion.class
+Controller\LoginServlet.class
+com\mycompany\resources\JakartaEE10Resource.class
+Controller\RegisterServlet.class
+com\mycompany\JakartaRestConfiguration.class
+Controller\LogoutServlet.class
+Dao\UsuarioDao.class
+model\Usuario.class
