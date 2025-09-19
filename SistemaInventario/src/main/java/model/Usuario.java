@@ -1,17 +1,21 @@
-package model;
+package model; 
+// Define el paquete donde esta ubicada esta clase, en este caso "model" 
 
 public class Usuario {
-    private int id_usuario;
-    private String nombre;
-    private String apellido;
-    private String correo;
-    private String nombre_usuario;
-    private String contraseña;
-    private String rol;
+    // Clase "Usuario" que representa la entidad usuario dentro del sistema.  
+
+    private int id_usuario; // Identificador único del usuario
+    private String nombre; // Nombre del usuario.
+    private String apellido; // Apellido del usuario.
+    private String correo; // Correo electrónico del usuario
+    private String nombre_usuario; // Nombre de usuario
+    private String contraseña; // Contraseña del usuario para acceder al sistema. 
+    private String rol; // Rol que tiene el usuario en el sistema
 
     public Usuario() {}
-
+    // Constructor vacío. Es necesario para poder crear objetos Usuario sin parámetros.
     // Getters y Setters
+    // Métodos que permiten acceder y modificar los atributos privados de la clase. 
     public int getId_usuario() { return id_usuario; }
     public void setId_usuario(int id_usuario) { this.id_usuario = id_usuario; }
 
